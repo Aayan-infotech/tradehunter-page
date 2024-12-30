@@ -41,7 +41,7 @@ const cardData = [
     image: Fifth2,
   },
   {
-    title: "Streamlined Hiring Process",
+    title: "Streamlined Searching Process",
     description: "Read more",
     image: Fifth3,
   },
@@ -82,12 +82,14 @@ function Home() {
         sx={{ backgroundColor: "#F5F7FA" }}
       >
         <Grid item xs={12} md={6}>
-          <Typography variant="h3" sx={{ fontWeight: "bold", mb: 2 }}>
-            Start Funding & <br /> Posting Jobs <br /> Through{" "}
-            <span style={{ color: "#32DE84" }}>Our App</span>
+          <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2 }}>
+            Start Posting a Job <br /> search for a provider <br /> with click
+            on a button through{" "}
+            <span style={{ color: "#32DE84" }}>our website</span> and
+            <span style={{ color: "#32DE84" }}> Our App</span>
           </Typography>
           <Typography variant="body1" sx={{ color: "text.secondary", mb: 3 }}>
-            Explore job roles & advertise your manpower requirements
+            Explore service providers and jobs
           </Typography>
           <Button
             variant="contained"
@@ -172,9 +174,7 @@ function Home() {
             >
               <CardContent>
                 <MonitorIcon style={{ fontSize: "40px" }} />
-                <p style={{ fontWeight: "bold", margin: "10px 0" }}>
-                  Electrician
-                </p>
+                <p style={{ fontWeight: "bold", margin: "10px 0" }}>Plumber</p>
 
                 <a
                   style={{ display: "flex", alignItems: "center", gap: "10px" }}
@@ -198,13 +198,13 @@ function Home() {
               <CardContent>
                 <CampaignIcon style={{ fontSize: "40px" }} />
                 <p style={{ fontWeight: "bold", margin: "10px 0" }}>
-                  Electrician
+                  Carpenter
                 </p>
 
                 <a
                   style={{ display: "flex", alignItems: "center", gap: "10px" }}
                 >
-                  756 jobs available <EastIcon />
+                  75 jobs available <EastIcon />
                 </a>
               </CardContent>
             </Card>
@@ -223,13 +223,13 @@ function Home() {
               <CardContent>
                 <PaymentsIcon style={{ fontSize: "40px" }} />
                 <p style={{ fontWeight: "bold", margin: "10px 0" }}>
-                  Electrician
+                  Cleaning Staff
                 </p>
 
                 <a
                   style={{ display: "flex", alignItems: "center", gap: "10px" }}
                 >
-                  756 jobs available <EastIcon />
+                  50 jobs available <EastIcon />
                 </a>
               </CardContent>
             </Card>
@@ -244,7 +244,7 @@ function Home() {
             align="center"
             sx={{ fontWeight: "bold", mb: 2, color: "#4D4D4D" }}
           >
-            Start finding jobs or posting them today!
+            Start Accepting jobs with our app and stay busy all the time!
           </Typography>
           <Typography
             variant="body1"
@@ -297,8 +297,8 @@ function Home() {
                 </h2>
 
                 <a>
-                  Our membership management software provides full automation of
-                  membership renewals and payments
+                  We have more than 500+ Services to choose from tailored to
+                  your need
                 </a>
               </CardContent>
             </Card>
@@ -331,8 +331,8 @@ function Home() {
                 </h2>
 
                 <a>
-                  Our membership management software provides full automation of
-                  membership renewals and payments
+                  Available on your website and app easy sign up process for
+                  service hunter and service provider
                 </a>
               </CardContent>
             </Card>
@@ -364,10 +364,7 @@ function Home() {
                   Trusted by users
                 </h2>
 
-                <a>
-                  Our membership management software provides full automation of
-                  membership renewals and payments
-                </a>
+                <a>Our platform is served and easy to navigate through</a>
               </CardContent>
             </Card>
           </Grid2>
@@ -417,8 +414,8 @@ function Home() {
             align="center"
             sx={{ fontWeight: "bold", mb: 2, color: "#4D4D4D" }}
           >
-            Trade Hunters: Bridging Talent and Opportunity in the World of
-            Manpower
+            Trade Hunters: Bridging Clients with service provider in the world
+            of success
           </Typography>
           <Typography
             variant="body1"
@@ -430,11 +427,11 @@ function Home() {
               color: "#717171",
             }}
           >
-            Discover a platform designed to simplify hiring and job-seeking in
-            the manpower industry. Whether you're looking to post jobs or find
-            opportunities, Trade Hunter connects skilled individuals with the
-            right employers seamlessly. Empowering businesses and workers to
-            grow together!
+            Discover a platform designed to simplify hiring and job-posting in
+            the manpower industry. Whether you’re looking to post jobs or find
+            services, Trade Hunter connects service hunters with skilled service
+            provider seamlessly, Empowering businesses and clients to grow
+            together!
           </Typography>
         </Box>
 
@@ -485,18 +482,16 @@ function Home() {
           alignItems: "center",
           flexDirection: "column",
           bgcolor: "rgba(245, 247, 250, 1)",
-          py: 4,
+          py: 5,
         }}
       >
-        <Grid item sx={{ mb: 4 }}>
-          <Typography variant="h3" sx={{ color: "#52595C", fontWeight: "600" }}>
-            Great platform for the job seeker that passionate
-          </Typography>
+        <Grid item sx={{ mb: 5 }}>
           <Typography
-            variant="h3"
+            variant="h4"
             sx={{ color: "#52595C", fontWeight: "600", textAlign: "center" }}
           >
-            about startups. Find your dream job easier.
+            Great platform for the service hunter that passionate about quality
+            work . and then grow your business opportunity faster and easier.
           </Typography>
         </Grid>
         <Grid2 item>
@@ -568,16 +563,16 @@ function Home() {
         <Grid2 item size={{ xs: 12, md: 4 }}>
           <h2 style={{ color: "#fff", marginBottom: "24px" }}>Contact Us</h2>
           <a
-            href="mailto:admin@tradehunters.com.au"
+            href="mailto:support@tradehunters.com.au"
             style={{ color: "#fff", textDecoration: "none" }}
           >
-            admin@tradehunters.com.au
+            support@tradehunters.com.au
           </a>
         </Grid2>
         <Grid2 item size={{ xs: 12, md: 4 }}>
           <h2 style={{ color: "#fff", marginBottom: "24px" }}>Address</h2>
           <p style={{ color: "#fff", textDecoration: "none" }}>
-            123 City , XYZ State, Lorem Ipsum
+            Victoria , Australia
           </p>
         </Grid2>
       </Grid>
