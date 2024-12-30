@@ -599,13 +599,13 @@ function Home() {
                 <div className="card-content">
                   <Typography
                     variant="h5"
-                    sx={{ color: "rgba(113, 113, 113, 1)" }}
+                    sx={{ color: "rgba(113, 113, 113, 1)",fontSize: "1rem", }}
                   >
                     {card.title}
                   </Typography>
                   <Typography
                     variant="body1"
-                    sx={{ color: "rgba(50, 222, 132, 1)" }}
+                    sx={{ color: "rgba(50, 222, 132, 1)",fontSize: "1rem", }}
                     style={{ marginTop: "10px", fontWeight: "bold" }}
                   >
                     {card.description}
