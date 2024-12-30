@@ -83,8 +83,8 @@ function Home() {
       >
         <Grid item xs={12} md={6}>
           <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2 }}>
-            Start Posting a Job <br /> search for a provider <br /> with click
-            on a button through{" "}
+            Start Posting Jobs <br /> search for a providers <br /> with the click
+            of a button through{" "}
             <span style={{ color: "#32DE84" }}>our website</span> and
             <span style={{ color: "#32DE84" }}> Our App</span>
           </Typography>
@@ -260,7 +260,7 @@ function Home() {
           </Typography>
         </Box>
 
-        <Grid
+        {/* <Grid
           container
           spacing={4}
           justifyContent={"space-between"}
@@ -368,7 +368,156 @@ function Home() {
               </CardContent>
             </Card>
           </Grid2>
-        </Grid>
+        </Grid> */}
+        <Grid
+  container
+  spacing={4}
+  justifyContent="center" // Centers cards horizontally
+  alignItems="stretch"    // Ensures all cards have equal height
+>
+  <Grid item xs={12} sm={6} md={4} className="jobs-finding">
+    <Card
+      sx={{
+        borderRadius: 2,
+        marginBottom: "40px",
+        border: 0,
+        boxShadow: 0,
+        py: 2,
+        px: 1,
+        textAlign: "center",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+    >
+      <CardContent
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          flexGrow: 1,
+        }}
+      >
+        <div className="card-icon">
+          <GroupsIcon style={{ fontSize: "40px" }} />
+        </div>
+        <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
+          Different type of services
+        </h2>
+        <p
+          style={{
+            fontSize: "14px",
+            margin: "0",
+            lineHeight: "1.5",
+            minHeight: "50px", // Ensures consistent height for all text
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+          }}
+        >
+          We have more than 500+ Services to choose from tailored to your need
+        </p>
+      </CardContent>
+    </Card>
+  </Grid>
+
+  <Grid item xs={12} sm={6} md={4}>
+    <Card
+      sx={{
+        borderRadius: 2,
+        marginBottom: "40px",
+        border: 0,
+        boxShadow: 0,
+        py: 2,
+        px: 1,
+        textAlign: "center",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+    >
+      <CardContent
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          flexGrow: 1,
+        }}
+      >
+        <div className="card-icon">
+          <LocationCityIcon style={{ fontSize: "40px" }} />
+        </div>
+        <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
+          Available at your place
+        </h2>
+        <p
+          style={{
+            fontSize: "14px",
+            margin: "0",
+            lineHeight: "1.5",
+            minHeight: "50px",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+          }}
+        >
+          Available on our website and app easy sign-up process for
+          service hunters and service providers
+        </p>
+      </CardContent>
+    </Card>
+  </Grid>
+
+  <Grid item xs={12} sm={6} md={4}>
+    <Card
+      sx={{
+        borderRadius: 2,
+        marginBottom: "40px",
+        border: 0,
+        boxShadow: 0,
+        py: 2,
+        px: 1,
+        textAlign: "center",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+      }}
+    >
+      <CardContent
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          flexGrow: 1,
+        }}
+      >
+        <div className="card-icon">
+          <PeopleIcon style={{ fontSize: "40px" }} />
+        </div>
+        <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
+          Trusted by users
+        </h2>
+        <p
+          style={{
+            fontSize: "14px",
+            margin: "0",
+            lineHeight: "1.5",
+            minHeight: "50px",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+          }}
+        >
+          Our platform is secured and easy to navigate through
+        </p>
+      </CardContent>
+    </Card>
+  </Grid>
+</Grid>
+
       </Grid>
 
       {/* Fourth-Section */}
@@ -414,7 +563,7 @@ function Home() {
             align="center"
             sx={{ fontWeight: "bold", mb: 2, color: "#4D4D4D" }}
           >
-            Trade Hunters: Bridging Clients with service provider in the world
+            Trade Hunters: Bridging Clients with service providers in the world
             of success
           </Typography>
           <Typography
@@ -427,11 +576,7 @@ function Home() {
               color: "#717171",
             }}
           >
-            Discover a platform designed to simplify hiring and job-posting in
-            the manpower industry. Whether you’re looking to post jobs or find
-            services, Trade Hunter connects service hunters with skilled service
-            provider seamlessly, Empowering businesses and clients to grow
-            together!
+            Discover a platform designed to simplify job-posting and job hunting in the manpower industry. Whether you're looking to post jobs or find services, Trade Hunter connects service hunters with skilled service providers seamlessly, Empowering businesses and clients to grow together!
           </Typography>
         </Box>
 
@@ -490,8 +635,7 @@ function Home() {
             variant="h4"
             sx={{ color: "#52595C", fontWeight: "600", textAlign: "center" }}
           >
-            Great platform for the service hunter that passionate about quality
-            work . and then grow your business opportunity faster and easier.
+           Great platform for the service hunter that is passionate about quality work. Grow your business opportunity faster and easier.
           </Typography>
         </Grid>
         <Grid2 item>
