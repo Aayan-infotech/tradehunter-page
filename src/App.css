@@ -88,3 +88,24 @@ textarea {
   width: 40px;
   padding: 10px;
 }
+.logo {
+  height: 40px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 20px;
+  }
+  .logo {
+    height: 25px;
+  }
+  .MuiButton-containedSuccess {
+    font-size: 0.7rem !important;
+  }
+  .css-13hgotv-MuiTypography-root , .css-135em5h-MuiTypography-root {
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+  }
+  .card-content {
+    max-width: calc(100% - 25%);
+  }
+}

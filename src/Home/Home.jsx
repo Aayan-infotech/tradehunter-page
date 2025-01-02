@@ -63,7 +63,7 @@ function Home() {
             component="img"
             src={Logo}
             alt="tradeHunter-logo"
-            sx={{ height: 40 }}
+            className="logo"
           ></Box>
         </Grid>
         <Grid2 item>
@@ -83,8 +83,8 @@ function Home() {
       >
         <Grid item xs={12} md={6}>
           <Typography variant="h4" sx={{ fontWeight: "bold", mb: 2 }}>
-            Start Posting Jobs <br /> search for a providers <br /> with the click
-            of a button through{" "}
+            Start Posting Jobs <br /> search for a providers <br /> with the
+            click of a button through{" "}
             <span style={{ color: "#32DE84" }}>our website</span> and
             <span style={{ color: "#32DE84" }}> Our App</span>
           </Typography>
@@ -370,154 +370,154 @@ function Home() {
           </Grid2>
         </Grid> */}
         <Grid
-  container
-  spacing={4}
-  justifyContent="center" // Centers cards horizontally
-  alignItems="stretch"    // Ensures all cards have equal height
->
-  <Grid item xs={12} sm={6} md={4} className="jobs-finding">
-    <Card
-      sx={{
-        borderRadius: 2,
-        marginBottom: "40px",
-        border: 0,
-        boxShadow: 0,
-        py: 2,
-        px: 1,
-        textAlign: "center",
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-      }}
-    >
-      <CardContent
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          flexGrow: 1,
-        }}
-      >
-        <div className="card-icon">
-          <GroupsIcon style={{ fontSize: "40px" }} />
-        </div>
-        <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
-          Different type of services
-        </h2>
-        <p
-          style={{
-            fontSize: "14px",
-            margin: "0",
-            lineHeight: "1.5",
-            minHeight: "50px", // Ensures consistent height for all text
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
+          container
+          spacing={4}
+          justifyContent="center" // Centers cards horizontally
+          alignItems="stretch" // Ensures all cards have equal height
         >
-          We have more than 500+ Services to choose from tailored to your need
-        </p>
-      </CardContent>
-    </Card>
-  </Grid>
+          <Grid item xs={12} sm={6} md={4} className="jobs-finding">
+            <Card
+              sx={{
+                borderRadius: 2,
+                marginBottom: "40px",
+                border: 0,
+                boxShadow: 0,
+                py: 2,
+                px: 1,
+                textAlign: "center",
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+              }}
+            >
+              <CardContent
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexGrow: 1,
+                }}
+              >
+                <div className="card-icon">
+                  <GroupsIcon style={{ fontSize: "40px" }} />
+                </div>
+                <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
+                  Different type of services
+                </h2>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    margin: "0",
+                    lineHeight: "1.5",
+                    minHeight: "50px", // Ensures consistent height for all text
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  We have more than 500+ Services to choose from tailored to
+                  your need
+                </p>
+              </CardContent>
+            </Card>
+          </Grid>
 
-  <Grid item xs={12} sm={6} md={4}>
-    <Card
-      sx={{
-        borderRadius: 2,
-        marginBottom: "40px",
-        border: 0,
-        boxShadow: 0,
-        py: 2,
-        px: 1,
-        textAlign: "center",
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-      }}
-    >
-      <CardContent
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          flexGrow: 1,
-        }}
-      >
-        <div className="card-icon">
-          <LocationCityIcon style={{ fontSize: "40px" }} />
-        </div>
-        <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
-          Available at your place
-        </h2>
-        <p
-          style={{
-            fontSize: "14px",
-            margin: "0",
-            lineHeight: "1.5",
-            minHeight: "50px",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
-        >
-          Available on our website and app easy sign-up process for
-          service hunters and service providers
-        </p>
-      </CardContent>
-    </Card>
-  </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Card
+              sx={{
+                borderRadius: 2,
+                marginBottom: "40px",
+                border: 0,
+                boxShadow: 0,
+                py: 2,
+                px: 1,
+                textAlign: "center",
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+              }}
+            >
+              <CardContent
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexGrow: 1,
+                }}
+              >
+                <div className="card-icon">
+                  <LocationCityIcon style={{ fontSize: "40px" }} />
+                </div>
+                <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
+                  Available at your place
+                </h2>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    margin: "0",
+                    lineHeight: "1.5",
+                    minHeight: "50px",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  Available on our website and app easy sign-up process for
+                  service hunters and service providers
+                </p>
+              </CardContent>
+            </Card>
+          </Grid>
 
-  <Grid item xs={12} sm={6} md={4}>
-    <Card
-      sx={{
-        borderRadius: 2,
-        marginBottom: "40px",
-        border: 0,
-        boxShadow: 0,
-        py: 2,
-        px: 1,
-        textAlign: "center",
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-      }}
-    >
-      <CardContent
-        sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          flexGrow: 1,
-        }}
-      >
-        <div className="card-icon">
-          <PeopleIcon style={{ fontSize: "40px" }} />
-        </div>
-        <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
-          Trusted by users
-        </h2>
-        <p
-          style={{
-            fontSize: "14px",
-            margin: "0",
-            lineHeight: "1.5",
-            minHeight: "50px",
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-          }}
-        >
-          Our platform is secured and easy to navigate through
-        </p>
-      </CardContent>
-    </Card>
-  </Grid>
-</Grid>
-
+          <Grid item xs={12} sm={6} md={4}>
+            <Card
+              sx={{
+                borderRadius: 2,
+                marginBottom: "40px",
+                border: 0,
+                boxShadow: 0,
+                py: 2,
+                px: 1,
+                textAlign: "center",
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+              }}
+            >
+              <CardContent
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexGrow: 1,
+                }}
+              >
+                <div className="card-icon">
+                  <PeopleIcon style={{ fontSize: "40px" }} />
+                </div>
+                <h2 style={{ fontWeight: "bold", margin: "10px 0" }}>
+                  Trusted by users
+                </h2>
+                <p
+                  style={{
+                    fontSize: "14px",
+                    margin: "0",
+                    lineHeight: "1.5",
+                    minHeight: "50px",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                  }}
+                >
+                  Our platform is secured and easy to navigate through
+                </p>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
       </Grid>
 
       {/* Fourth-Section */}
@@ -576,7 +576,11 @@ function Home() {
               color: "#717171",
             }}
           >
-            Discover a platform designed to simplify job-posting and job hunting in the manpower industry. Whether you're looking to post jobs or find services, Trade Hunter connects service hunters with skilled service providers seamlessly, Empowering businesses and clients to grow together!
+            Discover a platform designed to simplify job-posting and job hunting
+            in the manpower industry. Whether you're looking to post jobs or
+            find services, Trade Hunter connects service hunters with skilled
+            service providers seamlessly, Empowering businesses and clients to
+            grow together!
           </Typography>
         </Box>
 
@@ -599,13 +603,13 @@ function Home() {
                 <div className="card-content">
                   <Typography
                     variant="h5"
-                    sx={{ color: "rgba(113, 113, 113, 1)",fontSize: "1rem", }}
+                    sx={{ color: "rgba(113, 113, 113, 1)", fontSize: "1rem" }}
                   >
                     {card.title}
                   </Typography>
                   <Typography
                     variant="body1"
-                    sx={{ color: "rgba(50, 222, 132, 1)",fontSize: "1rem", }}
+                    sx={{ color: "rgba(50, 222, 132, 1)", fontSize: "1rem" }}
                     style={{ marginTop: "10px", fontWeight: "bold" }}
                   >
                     {card.description}
@@ -635,7 +639,8 @@ function Home() {
             variant="h4"
             sx={{ color: "#52595C", fontWeight: "600", textAlign: "center" }}
           >
-           Great platform for the service hunter that is passionate about quality work. Grow your business opportunity faster and easier.
+            Great platform for the service hunter that is passionate about
+            quality work. Grow your business opportunity faster and easier.
           </Typography>
         </Grid>
         <Grid2 item>
@@ -653,7 +658,7 @@ function Home() {
           bgcolor: "#000",
           py: 6,
           justifyContent: "space-between",
-          pb: 8,
+          pb: 9,
         }}
       >
         <Grid2 item size={{ xs: 12, md: 4 }}>
@@ -669,7 +674,7 @@ function Home() {
               gap: "18px",
               flexDirection: "row",
               marginTop: "25px",
-              marginBottom: "45px",
+              marginBottom: "25px",
             }}
           >
             <span
@@ -704,7 +709,7 @@ function Home() {
             </span>
           </div>
         </Grid2>
-        <Grid2 item size={{ xs: 12, md: 4 }}>
+        <Grid2 item size={{ xs: 12, md: 4 }} sx={{ marginBottom: "45px" }}>
           <h2 style={{ color: "#fff", marginBottom: "24px" }}>Contact Us</h2>
           <a
             href="mailto:support@tradehunters.com.au"
