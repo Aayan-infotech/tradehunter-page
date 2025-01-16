@@ -668,7 +668,7 @@ function Home() {
             <br />
             All rights reserved
           </p>
-          <div
+          {/* <div
             style={{
               display: "flex",
               gap: "18px",
@@ -707,7 +707,7 @@ function Home() {
             >
               <YouTubeIcon style={{ color: "#fff" }} />
             </span>
-          </div>
+          </div> */}
         </Grid2>
         <Grid2 item size={{ xs: 12, md: 4 }} sx={{ marginBottom: "45px" }}>
           <h2 style={{ color: "#fff", marginBottom: "24px" }}>Contact Us</h2>
