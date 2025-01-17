@@ -17,9 +17,9 @@ import Fifth1 from "../image/fifth1.png";
 import Fifth2 from "../image/fifth2.png";
 import Fifth3 from "../image/fifth3.jpg";
 import footerLogo from "../image/logo-footer.png";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import XIcon from "@mui/icons-material/X";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import XIcon from "@mui/icons-material/X";
+// import YouTubeIcon from "@mui/icons-material/YouTube";
 import SignalCellularAltIcon from "@mui/icons-material/SignalCellularAlt";
 import EastIcon from "@mui/icons-material/East";
 import CampaignIcon from "@mui/icons-material/Campaign";
@@ -125,7 +125,6 @@ function Home() {
             variant="body1"
             align="center"
             sx={{
-              color: "text.secondary",
               mx: "auto",
               mb: 6,
               color: "#717171",
@@ -154,7 +153,9 @@ function Home() {
                 </p>
 
                 <a
-                  style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                  href="!#"
+                  
+                  style={{ display: "flex", alignItems: "center", gap: "10px" , textDecoration:"none" }}
                 >
                   756 jobs available <EastIcon />
                 </a>
@@ -177,7 +178,8 @@ function Home() {
                 <p style={{ fontWeight: "bold", margin: "10px 0" }}>Plumber</p>
 
                 <a
-                  style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                  href="!#"
+                  style={{ display: "flex", alignItems: "center", gap: "10px", textDecoration:"none" }}
                 >
                   756 jobs available <EastIcon />
                 </a>
@@ -202,7 +204,8 @@ function Home() {
                 </p>
 
                 <a
-                  style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                  href="!#"
+                  style={{ display: "flex", alignItems: "center", gap: "10px" , textDecoration:"none" }}
                 >
                   75 jobs available <EastIcon />
                 </a>
@@ -227,7 +230,8 @@ function Home() {
                 </p>
 
                 <a
-                  style={{ display: "flex", alignItems: "center", gap: "10px" }}
+                  href="!#"
+                  style={{ display: "flex", alignItems: "center", gap: "10px" , textDecoration:"none" }}
                 >
                   50 jobs available <EastIcon />
                 </a>
@@ -253,7 +257,6 @@ function Home() {
               color: "text.secondary",
               mx: "auto",
               mb: 6,
-              color: "#717171",
             }}
           >
             Looking for manpower
@@ -570,7 +573,6 @@ function Home() {
             variant="body1"
             align="center"
             sx={{
-              color: "text.secondary",
               mx: "auto",
               mb: 6,
               color: "#717171",
